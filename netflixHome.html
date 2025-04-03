@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        html,body{
+            background-color: #141414;
+            color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: grid;
+            grid-template-columns: 1fr 4fr 1fr;
+            padding: 20px 20px 0 20px;
+    
+        }
+        a{
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+        .main-nav b a:hover{
+            color: red;
+            font-size: 20px;
+        }
+        .main-container{
+            margin: 20px 20px;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(4,minmax(100px,1fr));
+            gap: 30px;
+        }
+        .box a img{
+            height: 200px;
+            width: 325px;
+        }
+        a:hover{
+            transform: scale(1.2);
+            transition: transform .3s;
+        }
+    </style>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="">
+            </div>
+            <nav class="main-nav">
+                <b>
+                    <a href="">Home</a>
+                    <a href="">TV Shows</a>
+                    <a href="">Movies</a>
+                    <a href="">Sports</a>
+                </b>
+            </nav>
+            <nav class="sub-nav">
+                <b>
+                    <a href=""><i class="fas fa-search sub-nav-logo"></i></a>
+                    <a href=""><i class="fas fa-bell sub-nav-logo"></i></a>
+                    <a href=""><u><i class="sub-nav-logo">Account</i></a></u>
+                </b>
+            </nav>
+        </header>
+
+        <section class="main-container">
+            <div class="home">
+                <h2>Trending Now</h2>
+                <div class="box">
+                    <a href="">
+                        <img width="" src="https://images.ottplay.com/images/big/stree-2-new-poster-1721216275.jpeg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2023/09/12/f5qvg3iaqaaz6ma7170701.jpg?w=777&crop=0,10,777px,437px" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://assets.thehansindia.com/h-upload/2024/03/23/1432933-devera-1.webp" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://wallpapercave.com/wp/wp7319246.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://filmfare.wwmindia.com/content/2024/sep/aliabhattjigra11725601702.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQdXkb_0eq54eT8lgtgv2ejw7CKtozTBGU2iMKB9ZqAsSEzVmePTgEBifwqp_81BS1Q87-ma3O-XhNAc33llZjzvFjy9kVUBws2CDQClbM84BmwE_Dq7TGBN0a4goqlyI8xWKrpPJ77RBk6Glzg.jpg?r=54c" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://i.ytimg.com/vi/8y4PZkrvCh0/sddefault.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://wallpapercave.com/wp/wp8981368.jpg" alt="">
+                    </a>
+                </div>
+                <h2>Action</h2>
+                <div class="box">
+                    
+                    <a href="">
+                        <img width="" src="https://wallpapercave.com/wp/wp8981368.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2023/09/12/f5qvg3iaqaaz6ma7170701.jpg?w=777&crop=0,10,777px,437px" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2023-09/28/full/1695891993-0587.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://www.bollywoodhungama.com/wp-content/uploads/2022/04/K.G.F-%E2%80%93-Chapter-2-15.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://m.media-amazon.com/images/M/MV5BODJkYjUzODctYmE0NS00NmJiLTljZGMtYmMxYzUxOTliZGY1XkEyXkFqcGc@._V1_.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00351731-nbbzqcnpry-landscape.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202210/varun-dhawan-turn-werewolf-look-for-bhediya-sixteen_nine.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://wallpapercave.com/wp/wp4019390.jpg" alt="">
+                    </a>
+                </div>
+                <h2>Horror</h2>
+                <div class="box">
+                    <a href="">
+                        <img src="https://images.ottplay.com/images/big/stree-2-new-poster-1721216275.jpeg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeqbZjBwpA6-jYoiShL2Xl24busID9Xpkzw&s" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://images.indianexpress.com/2024/03/Shaitaan-Ajay-Devgn-R-Madhavan-Jyothika.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2022/04/23/3d68adf2c80447b186e95e441174a60a_original.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMGI0ZDNlYmItNTdlOS00ZWUxLTliNzUtZTdjMTkzOTYwODYwXkEyXkFqcGc@._V1_.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5432/1375432-i-93bc1bce6283" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/50352097.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://s1.dmcdn.net/v/N05fi1Wa9FK92RmMM/x720" alt="">
+                    </a>
+                </div>
+                <h2>Comedy</h2>
+                <div class="box">
+                    <a href="">
+                        <img src="https://i.ytimg.com/vi/XaXKh-s9zws/hqdefault.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/50368183.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://i.ytimg.com/vi/dYQ4C3GMXKo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCsAFDBB0EfNa_y-rsL9xWoU8fqyA" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://m.media-amazon.com/images/M/MV5BYzk5YTA1NzEtYzU1NS00NDkwLWI2MmItYzNmZWEyOGU2YzllXkEyXkFqcGc@._V1_.jpg" alt="">
+                    </a>
+                </div>
+                <h2>Web Series</h2>
+                <div class="box">
+                    <a href="">
+                        <img src="https://economictimes.indiatimes.com/thumb/msid-111506142,width-1600,height-900,resizemode-4,imgsize-1254536/mirzapur-3-poster.jpg?from=mdr" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://wallpapercave.com/wp/wp12223832.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://media.telanganatoday.com/wp-content/uploads/2021/06/The-Family-Man-in-top-4-of-most-popular-shows-in-the-world.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="https://www.bizasialive.com/wp-content/uploads/2020/02/specialops001.jpg" alt="">
+                    </a>
+                </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
